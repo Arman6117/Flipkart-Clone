@@ -1,0 +1,512 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+/* SECTION 1 :- Header */
+
+/* Navigation Bar */
+.navbar {
+  /* Visuals */
+  box-shadow: 0px 0px 10px 1px #505050;
+  width: 100vw;
+  height: 55px;
+  background-color: #2874f0;
+}
+.nav {
+  /* Positing */
+  display: flex;
+}
+.nav-active-items {
+  /* Visuals */
+  list-style: none;
+}
+.search {
+  /* Positing */
+  position: absolute;
+  top: 10px;
+  right: unset;
+  left: 316px;
+  bottom: unset;
+
+  /* Visuals */
+
+  outline: none;
+  border: none;
+  width: 325px;
+  height: 34px;
+  margin: auto;
+  padding: 2px;
+  background-color: rgb(243, 251, 255);
+  box-shadow: 0px 0px 3px 1px #2259b2;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 2px;
+}
+.search-glass {
+  /* Positing */
+  position: absolute;
+  left: 593px;
+  bottom: 6px;
+  /* Visuals */
+  width: 45px;
+}
+
+/* Logo */
+
+.brand-logo {
+  /* Positing */
+
+  position: absolute;
+  top: 9px;
+  right: 64vw;
+  left: 219px;
+
+  /* Visuals */
+  width: 85px;
+}
+
+.text-div {
+  /* Positing */
+  position: absolute;
+  margin-top: -1;
+  /* Visuals */
+  font-size: 11px;
+  left: 217px;
+  font-style: italic;
+}
+.text-div:hover {
+  text-decoration: underline;
+  color: white;
+}
+.explore {
+  /* Visuals */
+  text-decoration: none;
+  color: white;
+}
+.explore:hover {
+  color: white;
+}
+.plus {
+  /* Visuals */
+  text-decoration: none;
+  color: #ffe500;
+  font-weight: 600;
+  margin-right: 2px;
+}
+.plus:hover {
+  color: #ffe500;
+}
+.plus-icon {
+  /* Visuals */
+  width: 10px;
+  margin: 1px 0px 3px -2px;
+}
+
+/* Button and Links */
+
+.login-btn {
+  /* Positing */
+
+  position: absolute;
+  right: 370px;
+  top: 13px;
+  padding: 0px 5px 3px 7px;
+
+  /* Visuals */
+  background-color: #fff;
+  border: none;
+  outline: none;
+  width: 104px;
+  height: 29px;
+  color: #2874f0;
+  font-weight: 600;
+  box-shadow: 0px 0px 3px 1px #2259b2;
+  border-radius: 2px;
+}
+
+.nav-links {
+  position: absolute;
+}
+
+.link {
+  /* Positing */
+  position: relative;
+  bottom: 13px;
+  left: 802px;
+  /* Visuals */
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+.link:hover {
+  color: white;
+}
+.link-more {
+  /* Positing */
+  left: 840px;
+}
+.link-cart {
+  /* Positing */
+  left: 896px;
+}
+.cart-img {
+  width: 20px;
+  right: 33px;
+  position: absolute;
+  top: 2px;
+}
+
+/* SECTION 2 */
+
+/* Main */
+
+/* Carasoul control buttons */
+.next-control-icon {
+  position: absolute;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  transform: rotate(180deg);
+  background-image: url(https://cdn-icons-png.flaticon.com/512/271/271220.png);
+}
+.carousel-control-next:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  outline: 0;
+  opacity: 8.9;
+}
+
+.prev-control-icon {
+  position: absolute;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+  background-image: url(https://cdn-icons-png.flaticon.com/512/271/271220.png);
+}
+.carousel-control-prev:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  outline: 0;
+  opacity: 8.9;
+}
+.btn-container-prev {
+  position: absolute;
+  width: 56px;
+  height: 100px;
+  background-color: white;
+  top: 90px;
+  left: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.btn-container-next {
+  position: absolute;
+  width: 56px;
+  height: 100px;
+  background-color: white;
+  top: 90px;
+  right: 0px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+/* Carsousel Slides */
+
+.slide-c {
+  width: 1680px;
+  height: 280px;
+}
+
+/* Full Div */
+.carousel-c {
+  padding: 6px 6px;
+}
+
+/* Product cards */
+
+/* First Card */
+.product-cards {
+  display: flex;
+  background-color: #fff;
+  display: flex;
+  box-shadow: 0px 2px 8px 1px #2d3645;
+  height: 320px;
+  margin: 6px 6px 20px 6px;
+}
+
+/* Div for the Text of the first card */
+.card-text {
+  text-align: center;
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+}
+
+/* Text Of the first card div */
+.text {
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+/* Card Button div */
+
+.card-btn {
+  margin: 20px 70px;
+  background-color: #2874f0;
+  width: 100px;
+  box-shadow: 0px 2px 8px 1px #2d3645;
+}
+
+/* Button */
+
+.btn {
+  color: white;
+  font-weight: 600;
+}
+/* Card bottom Patterns */
+.card-patterns {
+  width: 250px;
+  height: 123px;
+  background-color: #8400ff;
+  opacity: 0.8;
+  background: radial-gradient(
+      circle,
+      transparent 20%,
+      #8400ff 20%,
+      #8400ff 80%,
+      transparent 80%,
+      transparent
+    ),
+    radial-gradient(
+        circle,
+        transparent 20%,
+        #c000ff 20%,
+        #c000ff 80%,
+        transparent 80%,
+        transparent
+      )
+      25px 25px,
+    linear-gradient(#ffffff 2px, transparent 2px) 0 -1px,
+    linear-gradient(90deg, #ffffff 2px, #c000ff 2px) -1px 0;
+  background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+}
+
+/* Product cards  */
+.carousel-item.active {
+  display: flex;
+}
+/* First Card Slide */
+/* First and Card Images */
+.card-img1 {
+  width: 150px;
+  margin: 23px 32px 1px 67px;
+}
+.card-img1:hover {
+  width: 152px;
+}
+.card-img2 {
+  height: 140px;
+  margin: 41px 0px 0px 38px;
+}
+.card-img2:hover {
+  height: 142px;
+}
+.card-img3 {
+  width: 210px;
+  height: 124px;
+  margin: 63px 0px 0px 89px;
+}
+.card-img3:hover {
+  height: 126px;
+  width: 212px;
+}
+
+/* Card image text */
+/* First card texts */
+/* First Product */
+.p-txt {
+  position: absolute;
+  left: 109px;
+}
+
+.first-txt {
+  left: 40px;
+}
+
+.price-txt {
+  top: 35px;
+  left: 23px;
+}
+
+.b-txt {
+  top: 73px;
+  left: 40px;
+}
+
+/* Second Product */
+.first-txt1 {
+  left: 265px;
+  top: -6px;
+}
+
+.price-txt1 {
+  top: 35px;
+  left: 253px;
+}
+
+.b-txt1 {
+  top: 73px;
+  left: 270px;
+}
+
+/* Third Product */
+.first-txt2 {
+  left: 550px;
+  top: -6px;
+}
+
+.price-txt2 {
+  top: 35px;
+  left: 540px;
+}
+
+.b-txt2 {
+  top: 73px;
+  left: 550px;
+}
+
+/* Buttons of product cards */
+.next-btn {
+  top: 157px;
+  right: -78px;
+}
+
+.prev-btn {
+  top: 157px;
+}
+
+.p-container {
+  box-shadow: -7px 3px 7px -6px #2d3646;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  width: 47px;
+  top: 140px;
+}
+
+.n-c {
+  right: -72px;
+}
+
+.p-c1 {
+  display: flex;
+}
+
+/* Footer Section */
+
+/* Footer Div */
+
+.footer-div {
+  padding: 82px 0 0 70px;
+  margin: 200px 0 0 0;
+  height: 350px;
+  background-color: #172337;
+}
+
+/* Footer Contents */
+
+/*  Section contents */
+
+.f-txt {
+  color: #878787;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.links {
+  font-weight: 600;
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+  padding: 19px 26px 1px 3px;
+}
+.links:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Padding Between Texts*/
+
+.p1 {
+  position: relative;
+  left: 11px;
+  padding: 0px;
+}
+.p2 {
+  margin: 0px 0px 0px 24px;
+}
+.p3{
+  position: relative;
+  left: 24px;
+}
+.p4{
+  position: relative;
+  left: 35px;
+}
+.p5{
+ position: relative;
+ left:38%;
+}
+.p6{
+   position: relative;
+   left: 154px;
+   bottom: 1px;
+}
+/* Padding Between Links */
+
+.l1 {
+  position: relative;
+  top: 20px;
+  padding: 19px 26px 1px 3px;
+}
+.l2{
+  position: relative;
+  top: 20px;
+  left:11px;
+}
+.l3{
+  position: relative;
+  top: 20px;
+  left: 13px;
+}
+.l4{
+  position: relative;
+  top: 20px;
+  left: 31px;
+}
+.l5{
+  position: relative;
+  top: 23px;
+  left: 50%;
+ 
+}
+.l6{
+  position: relative;
+  top: 23px;
+  
+}
+
+/* Vertical Line */
+ .vertical {
+  border-left: 1px solid rgb(255, 255, 255);
+  height: 150px;
+  position:absolute;
+  left: 50%;
+}
+
+.address{
+  width: 214px;
+}
